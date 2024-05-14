@@ -1,0 +1,88 @@
+*{
+    padding: 0;  /*Um espaçamento entre o conteúdo e a margem*/
+    margin: 0;  /* Colocar ou tirar margem*/
+    text-decoration: none;  /*Tirando a decoração de texto (sublinhado)*/
+    list-style: none; /*Para retirar os sinais da lista*/
+    font-family: 'Times New Roman', Times, serif;  /* Mudar a fonte das letras*/
+}
+
+.cabecalho{
+    background-color: #e8ad66;
+    padding: 6rem;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cabecalho i{
+    color: white;  
+    font-size: 3rem;
+    justify-items: left; 
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 0.1rem;  
+}
+
+.menu li a{
+    color: white;
+    padding: 1rem; 
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.menu li a:hover {
+    color: #ffffb5;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+#folhas-secas{
+    padding: 10rem;
+    background-image: url(img/banner.jpg);
+}
+
+#folhas-secas h1{
+    font-size: 4rem;
+    text-align: center;
+    color: #e8ad66;
+}
+
+.linha{
+    width: 70%;
+    margin: 2rem auto;
+}
+
+#folhas-secas h2{
+    font-size: 3rem;
+    text-align: center;
+    color: #e8ad66;
+}
+
+.secao01 h2 {
+    padding: 4rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.div-pai{
+ padding: 6rem;
+display: flex;
+justify-content: center;
+}
+
+.div-pai div{
+    padding: 1rem;
+    border: 1px solid black;
+    margin-left: 2rem;
+}
+
+
+
+
+
