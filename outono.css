@@ -8,7 +8,7 @@
 
 .cabecalho{
     background-color: #e8ad66;
-    padding: 6rem;
+    padding: 4rem;
     display: flex; 
     align-items: center;
     justify-content: space-between;
@@ -72,16 +72,113 @@
 
 .div-pai{
  padding: 6rem;
-display: flex;
-justify-content: center;
+ display: flex;
+ justify-content: center;
+ background-color: #ffffb5;
 }
 
 .div-pai div{
     padding: 1rem;
-    border: 1px solid black;
-    margin-left: 2rem;
+    margin-left: 1rem;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.486);
 }
 
+.div-pai div p{
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.719);
+}
+
+.secao02{
+    padding: 4rem;
+    background-color: rgba(128, 128, 128, 0.103);
+    justify-content: space-between;
+    display: flex;
+}
+
+.imagem{
+    margin-left: 10rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.63);
+}
+
+.texto{
+    margin-left: 1rem;
+    text-align: center;
+    background-color: #ffffb570;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.63) ;
+}
+
+.texto h2{
+    
+    padding: 3rem;
+    font-size: 2.1rem;
+}
+
+.texto hr{
+    width: 50%;
+    margin: 1rem auto;
+}
+
+.texto p{
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+
+.secao03{
+    padding: 4rem;
+    background-color: #ffffb5;
+}
+
+.secao03 h2{
+    text-align: center;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.582);
+}
+
+.secao03 p{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.404);
+}
+
+form{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+form input{
+    height: 3rem;
+    width: 30rem;
+    text-align: center;
+    font-size: 1.1rem;
+    border-color: transparent;
+}
+
+.botao{
+    width: 15rem;
+    border-color: black;
+    background-color: transparent;
+}
+
+.botao:hover{
+    background-color: #e8ae66b4;
+    color: chocolate;
+    transition: 1s;
+}
+
+.rodape{
+    background-color: #e8ad66;
+    display: flex;
+    padding: 4rem;
+    justify-content: space-between;
+}
+
+.icons{
+    color: white;  
+    font-size: 2rem;
+    margin-left: 2rem;
+    
+}
 
 
 
